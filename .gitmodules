@@ -1,0 +1,6 @@
+[submodule "sandstorm-dns-nss"]
+	path = sandstorm-dns-nss
+	url = git@github.com:jparyani/sandstorm-dns-nss
+[submodule "Transmission"]
+	path = Transmission
+	url = git@github.com:jparyani/Transmission.git
