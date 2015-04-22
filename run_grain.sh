@@ -5,4 +5,4 @@ mkdir -p /var/downloads
 
 cp settings.json /var
 
-./transmission-2.84/daemon/transmission-daemon -f --config-dir /var
+./Transmission/daemon/transmission-daemon -f --config-dir /var

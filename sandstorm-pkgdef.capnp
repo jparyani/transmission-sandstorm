@@ -46,7 +46,7 @@ const pkgdef :Spk.PackageDefinition = (
       ( sourcePath = "." ),  # Search this directory first.
       ( sourcePath = "sandstorm-dns-nss/nsswitch.conf", packagePath = "etc/nsswitch.conf" ),
       ( sourcePath = "sandstorm-dns-nss/lib/libnss_sandstormdns.so.2", packagePath = "lib/x86_64-linux-gnu/libnss_sandstormdns.so.2" ),
-      ( packagePath = "usr/share/transmission/web", sourcePath = "transmission-2.84/web" ),  # Search this directory first.
+      ( packagePath = "usr/share/transmission/web", sourcePath = "Transmission/web" ),  # Search this directory first.
       ( sourcePath = "/",    # Then search the system root directory.
         hidePaths = [ "home", "proc", "sys",
                       "etc/passwd", "etc/hosts", "etc/host.conf",
